@@ -26,18 +26,40 @@ slide: false
 その結果，根の細胞は 1g 環境と比較して，0.17g では，µg と同様に細胞の増殖速度は速くなるものの，細胞の大きさが小さくなることを報告している。なお，0.38g 環境では，根の細胞の増殖速度，大きさは 1g 環境と比較して有意な差異は認められなかった。
 このような植物生育の低重力応答，さらには低重力に依存した応答に関する知見はまだ少なく，今後精力的に実施し，知見を増やす必要があるであろう。
 
+Manzano ら(2018)は，低重力可変型 3D クリノスタットを開発し，模擬低重力環境応答の解析を報告している。
+彼らは，この装置を利用して，地上 1 g, 疑似微小重力(µg)，および，月や火星表面の重力を模擬した 0.17g と 0.38g を作り出し，シロイヌナズナの根の成長に及ぼす影響を解析した。
+その結果，根の細胞は 1g 環境と比較して，0.17g では，µg と同様に細胞の増殖速度は速くなるものの，細胞の大きさが小さくなることを報告している。なお，0.38g 環境では，根の細胞の増殖速度，大きさは 1g 環境と比較して有意な差異は認められなかった。
 
 ![Fig. 4 Average size of the nucleolus (area in μm2) as determined by the immunohistological detection of NucL1 under simulated microgravity, Moon (0.17 g RPMHW and RPMSW) and Mars partial gravity (0 .38 gRPMHW and RPMSW) and 1 g static control. a, b Wildtype line (Col 0). c, d Mutant nucL2. Statistically significant differences (p < 0.05) have been indicated with an * vs. 1 g control, average n = 35 in Col 0 and n = 73 in NucL2](./assets/images/fig_01.png)
+** 図1 **
 
 上記より、0.38g では植物の成長に致命的な影響はないと仮定する。
 
 # MNBP について
+![MNBP の構造](./assets/images/fig_02.png)
+
+![MNBP の外観](./assets/images/fig_03.png)
+
 \[1\] にて、すでに MNBP の諸元の方針が決められているので引用する。
 
 **表１ MNBP諸元（和紙＋こんにゃくを素材に用いた場合）**
 |バルーン直径m|バルーン表面積m3|バルーン厚さm|比重|バルーン重量t|材質          |破断強度MPa|気圧|圧力(Pa)|応力(MPa)|
 |:----      |:----         |:----      |:----|:----    |:----        |:----     |:----|:---- |:----   |
 |10         |314           |0.0018     |1.3|0.7        |和紙＋こんにゃく|525       |0.1|10133  |417      |
+
+# 人工重力を発生させる回転が MNBP に与える影響について
+
+人工重力発生のために、
+
+
+```
+a = vω = rω^2
+となり，働く力，遠心力，は，
+F = ma = mrω^2
+```
+
+
+
 
 - バルーンを回転
   - 回転のGに耐えられるか？
@@ -53,6 +75,8 @@ slide: false
       - https://kazubara.net/mechanical-design/materials-mechanics/syoshinnsyademowakaruzairyourikigaku25-bodyforce25/#index_id2
       - モジュール 100本だと仮定、
       - フレームをナイロンにすると？円周上に配置
+      - ミスト栽培にすると半分か2/3になりそう？
+       - 水耕は4.6kg/モジュール
     - 内圧？
     - 成長点 組織培養
     - 植物の成長に限らなくても、水の循環のため、みたいな話の進め方もあり
@@ -62,6 +86,10 @@ slide: false
   - 速度差をつけたらどうなるか？
     - 水の循環？
 - 気流も生まれる？
+
+# 考察
+
+# まとめ
 
 # 参考文献
 - [BSJ-Review11A_83-89](https://bsj.or.jp/jpn/general/bsj-review/BSJ-Review11A_83-89.pdf)
