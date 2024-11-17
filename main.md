@@ -67,16 +67,16 @@ $$
 \begin{align}
 & ma = mrω^2 \\
 & a = rω^2 \\
-& 0.38g = 5ω^2 \\
-& ω^2 = (0.38g)/5 \\
+& 0.38g = 4.4 ω^2 \\
+& ω^2 = (0.38g) / 4.4 \\
 \end{align}
 $$
 
 $$
 \begin{align}
 m & \Coloneqq \text{すべてのモジュールの重さの合計} = 3\ \text{[kg]} * 100 = 300\ \text{[kg]} \\
-r & \Coloneqq \text{バルーンの半径} = 5\ \text{[m]} \\
-F & = ma = mrω^2 = 300 \times 5 \times (0.38g / 5) = 300 \times 0.38g = 114g \\
+r & \Coloneqq \text{フレームの半径} = 4.4\ \text{[m]} \\
+F & = ma = mrω^2 = 300 \times 4.4 \times (0.38g / 4.4) = 300 \times 0.38g = 114g \\
   & = 114 \times 9.80665 = 1117.9581\ \text{[N]}
 \end{align}
 $$
